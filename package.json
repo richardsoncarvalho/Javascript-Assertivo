@@ -1,0 +1,20 @@
+{
+  "name": "javascript-assertivo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.2.0",
+    "prettier": "2.5.1"
+  }
+}
